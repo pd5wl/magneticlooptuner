@@ -40,10 +40,10 @@ void isr ()  {
  
 void setup ()  {
 // Setup Radio
-  SoftwareSerial userSerial(6,7);  
+  SoftwareSerial userSerial(5,6);  
   radio.setSerial(userSerial);
-  Serial.begin(38400);
-  radio.begin(38400);    // as with Serial.begin(9600); we wish to start the software serial port
+  Serial.begin(9600);
+  radio.begin(9600);    // as with Serial.begin(9600); we wish to start the software serial port
                         // so that we may control a radio via CAT commands
   // LCD 16x2 and backlight
   lcd.begin(16,2);   
@@ -57,7 +57,7 @@ void setup ()  {
   delay(3000);
   lcd.clear();
   lcd.setCursor(0,0);
-  lcd.print("Rotorposition");
+  lcd.print("Turns");
   lcd.setCursor(10,0);
   lcd.print("Freq");
 // Rotery  
