@@ -6,7 +6,11 @@ Pre working beta fase.<br/>
 <br/>
 Currently testing al seperate modules in one sketch before connecting everything together.<br/>
 <br/>
-Hardware:
+External Librarys<br/>
+<br/>
+FT857D CAT http://ve3bux.com/?page_id=501 Lib.<br/>
+<br/>
+Hardware:<br/>
 <br/>
 Arduino Uno<br/>
 Stepper motor + controller<br/>
